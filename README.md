@@ -1,1 +1,1 @@
-# quiz2-mapreduce-3f
+# Kuis 2 kelas TI3F Genap 2021/2022
