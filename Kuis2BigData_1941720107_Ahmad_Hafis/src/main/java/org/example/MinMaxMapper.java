@@ -12,7 +12,7 @@ public class MinMaxMapper extends Mapper <LongWritable,Text, Text,LongWritable>{
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        // sets the read value for the val object
+
         val.set(Long.parseLong(value.toString()));
         context.write(keyText, val);
     }
